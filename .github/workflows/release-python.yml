@@ -54,6 +54,9 @@ jobs:
           - runner: ubuntu-22.04
             target: armv7-unknown-linux-gnueabihf
             arch: armv7
+          - runner: ubuntu-24.04-riscv
+            target: riscv64gc-unknown-linux-gnu
+            arch: riscv64
           # - runner: ubuntu-22.04
           #   target: s390x
           # - runner: ubuntu-22.04
